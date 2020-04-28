@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0; 
+ }
+ body{
+     background-image: url('/imagenes/fondo2.jpg');
+ }
+ #contenido,#cuadro, #header, #menu, #centro, #footer, #down{
+     width: 900px;
+ }
+ #contenido{
+     height: 700px;
+     margin: 0 auto;
+ }
+ #cuadro{
+     height: 200px;
+     width: 200px;
+     background-color: firebrick;
+     float: left;
+ }
+ #header{
+     height: 200px;
+     background-color: blue;
+ }
+ #menu{
+     height: 50px;
+     background-color: rgb(157, 255, 0);
+     float: left;
+ }
+ #centro{
+     height: 450px;
+ }
+ #footer{
+     height: 50px;
+     background-color: rgb(6, 151, 151);
+ }
+ #izq{
+     width: 700px;
+     height: 450px;
+     background-color: crimson;
+     float: left;
+ }
+ #der{
+     width: 200px;
+     height: 450px;
+     background-color: rgb(66, 116, 209);
+     float: left;
+ }
+ #down{
+     height: 50px;
+     background-color: chocolate;
+ }
